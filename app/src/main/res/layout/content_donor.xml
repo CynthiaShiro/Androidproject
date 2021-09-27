@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#DC3D67">
+
+    <TextView
+        android:layout_width="384dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Donation Database"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <EditText
+
+        android:id="@+id/hospital"
+        android:layout_width="386dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Donors Hospital:" />
+
+    <Spinner
+        android:id="@+id/faculties_spinner"
+        android:layout_width="384dp"
+        android:layout_height="61dp"
+        android:text = "Selectyour blood group"/>
+
+    <Button
+        android:id="@+id/adddonor"
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:text="Add Donor" />
+
+    <Button
+        android:id="@+id/deletedonors"
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:text="Delete all donors" />
+
+    <ListView
+        android:id="@+id/donorlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+
+</LinearLayout>
